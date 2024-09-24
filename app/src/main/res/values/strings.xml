@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Course App</string>
+    <string name="update_course_details">Update Course Details</string>
+    <string name="calculate_total_fees">Calculate Total Fees</string>
+</resources>

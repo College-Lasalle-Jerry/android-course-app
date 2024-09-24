@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview_course_no"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textview_course_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textview_course_fees"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button_calculate_total_fees"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/calculate_total_fees" />
+
+    <TextView
+        android:id="@+id/textview_total_fees"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button_update_course_details"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/update_course_details" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_previous"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Previous" />
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Next" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
